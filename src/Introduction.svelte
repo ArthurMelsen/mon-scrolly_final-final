@@ -1,0 +1,3 @@
+<p><mark>Dans un monde où les enjeux environnementaux atteignent des proportions critiques, l'industrie se trouve face à un dilemme crucial.</mark> Souvent jugée comme l'une des principales sources de détérioration de notre écosystème, elle détient pourtant un potentiel financier considérable (million d'euros) pour devenir un pilier de la préservation environnementale.</p>
+
+	<p>Aujourd'hui, les entreprises industrielles prennent de plus en plus conscience de leur responsabilité envers la planète et de la nécessité de réduire leur empreinte écologique. <mark>Elles s'engagent dans des initiatives de développement durable, adoptant des pratiques respectueuses de l'environnement à tous les niveaux de leur processus de production.</mark></p>
