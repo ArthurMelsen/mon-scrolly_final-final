@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
 
-	import LoremIpsum from './LoremIpsum.svelte'
+import LoremIpsum from './LoremIpsum.svelte'
 
 	import Introduction from './Introduction.svelte'
 
@@ -13,15 +13,15 @@
 // le texte des boites
 	
   let stepsData = [
-    { "text": "Voici un superbe graphique avec <mark style='background-color: #4328E7; color:white; padding: 2px; border-radius: 5px;'><strong>l'évolution des dépenses pour la protection de l'environnement.</strong></mark>" },
+    { "text": "Voici un superbe graphique avec <mark style='background-color: #4328E7; color:white; padding: 2px; border-radius: 5px;'><strong>l'Ã©volution des dÃ©penses pour la protection de l'environnement.</strong></mark>" },
     { "text": "2017-2018" },
     { "text": "2017-2019" },
 		{ "text": "2017-2020" },
 		{ "text": "2017-2021" },
   ];
 
-	// Le "moteur" du scrollytelling qui utilise l'Intersection Observer API (en gros, le code observe ce qu'il y a à l'écran)
-	// ça on ne touche pas sinon tout se casse !
+	// Le "moteur" du scrollytelling qui utilise l'Intersection Observer API (en gros, le code observe ce qu'il y a Ã  l'Ã©cran)
+	// Ã§a on ne touche pas sinon tout se casse !
 
   onMount(() => {
     observer = new IntersectionObserver((entries) => {
@@ -43,7 +43,7 @@
   });
 </script>
 
-<h1>Evolution totale des dépenses de l'industrie pour la protection de l'environnement</h1>
+<h1>Evolution totale des dÃ©penses de l'industrie pour la protection de l'environnement</h1>
 
 <Introduction/>
 
@@ -76,9 +76,9 @@
 <style>
 
 	/* Ici les valeurs pour l'ensemble de la page > 
-	peut nécessiter des modifs de couleurs dans Flourish 
+	peut nÃ©cessiter des modifs de couleurs dans Flourish 
 	pour s'assurer que le graphe soit tjs bien visible (titre de graphique noir sur
-	fond de page noir,ça ne se voit pas bien...*/
+	fond de page noir,Ã§a ne se voit pas bien...*/
 
 	:global(body) {
     background-color: white; 
@@ -143,7 +143,7 @@
     margin: auto;
   }
 
-	/* Pour adapter la vue en mobile: steps centrées par dessus le graphique */
+	/* Pour adapter la vue en mobile: steps centrÃ©es par dessus le graphique */
 
   @media screen and (max-width: 768px) {
     .section-container {
